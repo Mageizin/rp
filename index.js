@@ -7,7 +7,7 @@ function convertToFahrenheit() {
     let celsiusInput = document.getElementById('celcius')
     let fahrenheitInput = document.getElementById('fahrenheit')
 
-    if(celsiusInput.value.length > 0 || fahrenheitInput.value.length > 0){
+    if(celsiusInput.value.length > 0 && fahrenheitInput.value.length > 0){
         let calculocelcius = (Number(celsiusInput.value) * 1.8) + 32
         let calculofahrenheit = (Number(fahrenheitInput.value) - 32) / 1.8
     
